@@ -32,8 +32,6 @@ p {
 	font-weight: 300;
 	letter-spacing: .05rem;
 }
-
-
 .section-title {
 	font-size: 4rem;
 	font-weight: 300;
@@ -60,8 +58,6 @@ p {
 	transition: .3s ease;
 	transition-property: background-color, color;
 }
-
-
 .cta:hover {
 	color: white;
 	background-color: crimson;
@@ -74,7 +70,6 @@ p {
 .brand h1 span {
 	color: crimson;
 }
-
 
 /* Header section */
 #header {
@@ -115,8 +110,6 @@ p {
 	overflow-x: hidden;
 	transition: .5s ease left;
 }
-
-
 #header .nav-list ul.active {
 	left: 0%;
 }
@@ -142,8 +135,6 @@ p {
 	z-index: -1;
 	transition: .3s ease letter-spacing;
 }
-
-
 #header .nav-list ul li:hover a::after {
 	transform: translate(-50%, -50%) scale(1);
 	letter-spacing: initial;
@@ -182,8 +173,6 @@ p {
 	background-color: white;
 	z-index: -1;
 }
-
-
 #header .hamburger .bar::after,
 #header .hamburger .bar::before {
 	content: '';
@@ -208,7 +197,6 @@ p {
 	top: 0;
 }
 /* End Header section */
-
 
 /* Hero Section */
 #hero {
@@ -244,8 +232,6 @@ p {
 	animation: text_reveal .5s ease forwards;
 	animation-delay: 1s;
 }
-
-
 #hero h1:nth-child(1) {
 	animation-delay: 1s;
 }
@@ -277,7 +263,6 @@ p {
 }
 
 /* End Hero Section */
-
 
 /* Services Section */
 #services .services {
@@ -313,8 +298,6 @@ p {
 	z-index: 1;
 	overflow: hidden;
 }
-
-
 #services .service-item::after {
 	content: '';
 	position: absolute;
@@ -343,7 +326,6 @@ p {
 }
 /* End Services Section */
 
-
 /* Projects section */
 #projects .projects {
 	flex-direction: column;
@@ -370,8 +352,6 @@ p {
 	overflow: hidden;
 	border-radius: 10px;
 }
-
-
 #projects .project-info {
 	padding: 30px;
 	flex-basis: 50%;
@@ -418,8 +398,6 @@ p {
 	transform: scale(1.1);
 }
 /* End Projects section */
-
-
 
 /* About Section */
 #about .about {
@@ -469,7 +447,6 @@ p {
 }
 /* End About Section */
 
-
 /* contact Section */
 #contact .contact {
 	flex-direction: column;
@@ -513,7 +490,6 @@ p {
 }
 /*End contact Section */
 
-
 /* Footer */
 #footer {
 	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
@@ -541,8 +517,6 @@ p {
 	width: 50px;
 	margin: 0 5px;
 }
-
-
 #footer .social-item img {
 	filter: grayscale(1);
 	transition: .3s ease filter;
@@ -555,7 +529,6 @@ p {
 	font-size: 1.3rem;
 }
 /* End Footer */
-
 
 /* Keyframes */
 @keyframes hamburger_puls {
@@ -591,8 +564,6 @@ p {
 }
 /* End Keyframes */
 
-
-
 /* Media Query For Tablet */
 @media only screen and (min-width: 768px) {
 	.cta {
@@ -616,7 +587,6 @@ p {
 	}
 	/* End Services Section */
 
-	
 	/* Project */
 	#projects .project-item {
 		flex-direction: row;
@@ -638,7 +608,6 @@ p {
 	}
 	/* End Project */
 
-	
 	/* About */
 	#about .about {
 		flex-direction: row;
@@ -664,7 +633,6 @@ p {
 	}
 	/* End About */
 
-	
 	/* contact  */
 	#contact .contact {
 		flex-direction: column;
@@ -698,3 +666,6 @@ p {
 		padding-left: 20px;
 	}
 	/* End contact  */
+}
+/* End Media Query For Tablet */
+
